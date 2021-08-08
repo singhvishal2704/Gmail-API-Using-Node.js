@@ -42,7 +42,7 @@ const mailSender = asyncHandler(async (req, res) => {
         service: "gmail",
         auth: {
           type: "OAuth2",
-          user: "www.vishalsingh2704@gmail.com",
+          user: "User Email Address",
           clientId: CLIENT_ID,
           clientSecret: CLEINT_SECRET,
           refreshToken: REFRESH_TOKEN,
