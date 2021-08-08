@@ -7,8 +7,10 @@ const dotenv = require('dotenv')
 dotenv.config()
 const app = express()
 
+// Body parser middleware
 app.use(express.json())
 
+// Mail send api Route
 app.use('/api/mail', mailRoutes)
 
 const PORT = process.env.PORT || 5000
